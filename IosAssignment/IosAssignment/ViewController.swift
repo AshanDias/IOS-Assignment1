@@ -9,26 +9,28 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var clearBtn: UIButton!
-    @IBOutlet weak var toogleBtn: UIButton!
-    @IBOutlet weak var percentageBtn: UIButton!
-    @IBOutlet weak var divideBtn: UIButton!
-    @IBOutlet weak var noSevenBtn: UIButton!
-    @IBOutlet weak var noEightBtn: UIButton!
-    @IBOutlet weak var noNineBtn: UIButton!
-    @IBOutlet weak var multiplyBtn: UIButton!
-    @IBOutlet weak var noFourBtn: UIButton!
-    @IBOutlet weak var noFiveBtn: UIButton!
-    @IBOutlet weak var noSixBtn: UIButton!
-    @IBOutlet weak var minusBtn: UIButton!
-    @IBOutlet weak var noOneBtn: UIButton!
-    @IBOutlet weak var noTwoBtn: UIButton!
-    @IBOutlet weak var noThreeBtn: UIButton!
-    @IBOutlet weak var plusBtn: UIButton!
-    @IBOutlet weak var noZeroBtn: UIButton!
-    @IBOutlet weak var dotBtn: UIButton!
-    @IBOutlet weak var equalBtn: UIButton!
-
+   
+    @IBOutlet weak var clearButton: UIButton!
+    @IBOutlet weak var togglrButton: UIButton!
+    @IBOutlet weak var precentageButton: UIButton!
+    @IBOutlet weak var devideButton: UIButton!
+    @IBOutlet weak var sevenButton: UIButton!
+    @IBOutlet weak var eightButton: UIButton!
+    @IBOutlet weak var nineButton: UIButton!
+    @IBOutlet weak var multplyButton: UIButton!
+    @IBOutlet weak var fourButton: UIButton!
+    @IBOutlet weak var fiveButton: UIButton!
+    @IBOutlet weak var sixButton: UIButton!
+    @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var oneButton: UIButton!
+    @IBOutlet weak var twoButton: UIButton!
+    @IBOutlet weak var threeButton: UIButton!
+    @IBOutlet weak var plusButton: UIButton!
+    @IBOutlet weak var zeroButton: UIButton!
+    @IBOutlet weak var pointButton: UIButton!
+    @IBOutlet weak var equalButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -37,7 +39,7 @@ class ViewController: UIViewController {
     
     func renderUI(){
         
-        let uiElements = [clearBtn,toogleBtn,percentageBtn,divideBtn,noSevenBtn,noEightBtn,noNineBtn,multiplyBtn,noFourBtn,noFiveBtn,noSixBtn,minusBtn,noOneBtn,noTwoBtn,noThreeBtn,plusBtn,noZeroBtn,dotBtn,equalBtn]
+        let uiElements = [clearButton,togglrButton,precentageButton,devideButton,sevenButton,eightButton,nineButton,multplyButton,fourButton,fiveButton,sixButton,minusButton,oneButton,twoButton,threeButton,plusButton,zeroButton,pointButton,equalButton]
         
         for element in  uiElements{
             element?.setEffects(with: .black, borderWidth: 0.5, cornerRadius: 0)

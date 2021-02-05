@@ -233,6 +233,27 @@
                             <constraint firstItem="UjP-Em-aZy" firstAttribute="top" secondItem="WDE-Xv-mty" secondAttribute="top" id="jsU-eD-ZVr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="clearButton" destination="wir-mF-Frt" id="DVC-w1-aoX"/>
+                        <outlet property="devideButton" destination="Cbw-7X-f7P" id="dlR-Dd-enm"/>
+                        <outlet property="eightButton" destination="LuL-10-PhE" id="bhG-Sq-2fK"/>
+                        <outlet property="equalButton" destination="tS7-tY-UDD" id="TFh-63-RHW"/>
+                        <outlet property="fiveButton" destination="h8r-Cd-zGu" id="3gw-9p-RiA"/>
+                        <outlet property="fourButton" destination="Lsp-8X-S3v" id="BNB-2n-1a7"/>
+                        <outlet property="minusButton" destination="2y8-a8-k9n" id="1Of-1L-iBp"/>
+                        <outlet property="multplyButton" destination="jAf-md-a4K" id="F7F-7i-AUR"/>
+                        <outlet property="nineButton" destination="dRt-RL-5hE" id="o94-JI-K5e"/>
+                        <outlet property="oneButton" destination="zaz-x1-ctk" id="9dL-jK-D3n"/>
+                        <outlet property="plusButton" destination="9mJ-AU-7QI" id="MdA-ZZ-Obw"/>
+                        <outlet property="pointButton" destination="es6-Xs-CXM" id="HmX-Iu-02j"/>
+                        <outlet property="precentageButton" destination="Djz-Xu-vZQ" id="un3-Ru-AwC"/>
+                        <outlet property="sevenButton" destination="PEC-5G-Eb0" id="rfy-ih-rw9"/>
+                        <outlet property="sixButton" destination="su7-DH-zWp" id="u7t-58-pG5"/>
+                        <outlet property="threeButton" destination="2SC-k7-B7o" id="Tj5-SQ-aMC"/>
+                        <outlet property="togglrButton" destination="Ruh-Jy-7uA" id="K5G-ae-4Sg"/>
+                        <outlet property="twoButton" destination="WcG-YQ-7vS" id="7ix-Vg-asN"/>
+                        <outlet property="zeroButton" destination="pVj-ye-ayJ" id="nS6-1E-iCt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
